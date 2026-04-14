@@ -5,6 +5,78 @@
      font-family: "Poppins", sans-serif;
 }
 
-.header{
+.nav-bar{
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.image{
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+}
+
+.image img{
+    width: 250px;
+    height: 300px;
+    margin-top: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image div:nth-child(1){
+    background-color: white;
+    margin: 10px;
+    margin-top: 1rem;
+
+}
+
+/* .image div h1, p{
+    color: ;
+} */
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+} 
+
+.social div i{
+    padding: 2rem 1rem;
+
+}
+
+@media(min-width: 768px){
+    .image div:nth-child(2){
+    width: 100px;
+    height: 50px;
+   
     
+}
+    .image div img{
+    width: 100px;
+    height: 50px;
+    margin-top: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 }
